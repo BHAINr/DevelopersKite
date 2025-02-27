@@ -90,28 +90,6 @@ function Homeservices() {
                     ))}
                 </div>
             </div>
-
-            {/* Contact Section */}
-            <div className="contact-section">
-                <h2>Get In Touch</h2>
-                <div className="contact-info">
-                    <div className="contact-item">
-                        <Mail size={32} className="contact-icon" />
-                        <h3>Email</h3>
-                        <p>support@itservices.com</p>
-                    </div>
-                    <div className="contact-item">
-                        <Phone size={32} className="contact-icon" />
-                        <h3>Phone</h3>
-                        <p>+1 (555) 123-4567</p>
-                    </div>
-                    <div className="contact-item">
-                        <MapPin size={32} className="contact-icon" />
-                        <h3>Address</h3>
-                        <p>123 Tech Street, IT City, 12345</p>
-                    </div>
-                </div>
-            </div>
         </div>
     );
 }

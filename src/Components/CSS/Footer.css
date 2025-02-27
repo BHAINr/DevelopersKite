@@ -1,0 +1,194 @@
+/* Main Footer */
+.footer {
+    background-color: #1a202c; /* bg-gray-900 */
+    color: #d1d5db; /* text-gray-300 */
+  }
+  
+  .footer-container {
+    max-width: 80rem; /* max-w-7xl */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem 1rem; /* py-12 px-4 */
+  }
+  
+  @media (min-width: 640px) {
+    .footer-container {
+      padding-left: 1.5rem; /* sm:px-6 */
+      padding-right: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .footer-container {
+      padding-left: 2rem; /* lg:px-8 */
+      padding-right: 2rem;
+    }
+  }
+  
+  /* Grid Layout */
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* grid-cols-1 */
+    gap: 2rem; /* gap-8 */
+  }
+  
+  @media (min-width: 768px) {
+    .footer-grid {
+      grid-template-columns: repeat(4, 1fr); /* md:grid-cols-4 */
+    }
+  }
+  
+  /* Section Styles */
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* space-y-4 */
+  }
+  
+  .footer-heading {
+    color: white; /* text-white */
+    font-size: 1.125rem; /* text-lg */
+    font-weight: 700; /* font-bold */
+  }
+  
+  .footer-text {
+    font-size: 0.875rem; /* text-sm */
+  }
+  
+  /* Social Media Icons */
+  .social-icons {
+    display: flex;
+    gap: 1rem; /* space-x-4 */
+  }
+  
+  .social-link {
+    color: #9ca3af; /* text-gray-400 */
+    transition: color 0.2s; /* transition-colors */
+  }
+  
+  .social-link:hover {
+    color: white; /* hover:text-white */
+  }
+  
+  .social-icon {
+    height: 1.5rem; /* h-6 */
+    width: 1.5rem; /* w-6 */
+  }
+  
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+  
+  /* Link Lists */
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* space-y-2 */
+  }
+  
+  .footer-link {
+    transition: color 0.2s; /* transition-colors */
+  }
+  
+  .footer-link:hover {
+    color: white; /* hover:text-white */
+  }
+  
+  /* Newsletter Form */
+  .footer-form {
+    margin-top: 0.5rem; /* mt-2 */
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* gap-2 */
+  }
+  
+  @media (min-width: 640px) {
+    .form-container {
+      flex-direction: row;
+    }
+  }
+  
+  .form-input {
+    padding: 0.5rem 1rem; /* px-4 py-2 */
+    background-color: #1f2937; /* bg-gray-800 */
+    border-radius: 0.375rem; /* rounded-md */
+    font-size: 0.875rem; /* text-sm */
+    width: 100%; /* w-full */
+  }
+  
+  .form-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #3b82f6; /* focus:ring-2 focus:ring-blue-500 */
+  }
+  
+  .form-button {
+    background-color: #2563eb; /* bg-blue-600 */
+    color: white;
+    padding: 0.5rem 1rem; /* px-4 py-2 */
+    border-radius: 0.375rem; /* rounded-md */
+    font-size: 0.875rem; /* text-sm */
+    transition: background-color 0.2s; /* transition-colors */
+  }
+  
+  .form-button:hover {
+    background-color: #1d4ed8; /* hover:bg-blue-700 */
+  }
+  
+  /* Bottom Bar */
+  .footer-bottom {
+    border-top: 1px solid #374151; /* border-t border-gray-800 */
+  }
+  
+  .bottom-container {
+    max-width: 80rem; /* max-w-7xl */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5rem 1rem; /* py-6 px-4 */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  @media (min-width: 640px) {
+    .bottom-container {
+      padding-left: 1.5rem; /* sm:px-6 */
+      padding-right: 1.5rem;
+      flex-direction: row;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .bottom-container {
+      padding-left: 2rem; /* lg:px-8 */
+      padding-right: 2rem;
+    }
+  }
+  
+  .copyright {
+    font-size: 0.875rem; /* text-sm */
+  }
+  
+  .legal-links {
+    margin-top: 1rem; /* mt-4 */
+    display: flex;
+    gap: 1.5rem; /* space-x-6 */
+    font-size: 0.875rem; /* text-sm */
+  }
+  
+  @media (min-width: 640px) {
+    .legal-links {
+      margin-top: 0; /* sm:mt-0 */
+    }
+  }

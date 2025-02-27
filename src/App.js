@@ -8,6 +8,7 @@ import AboutUs from './Components/JavaScript/AboutUs';
 import ContactForm from './Components/JavaScript/ContactForm';
 import ChatBox from './Components/JavaScript/ChatBox';
  import CloudService from './Components/JavaScript/CloudService';
+import Footer from './Components/JavaScript/Footer';
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/cd" element={<CloudService/>} />
       </Routes>
       <ChatBox/>
+      <Footer/>
     </Router>
    
   );
